@@ -199,5 +199,5 @@ int main(int argc, char *argv[])
     free(str);
     //free(str2);
     freeT(root);
-    return 1;
+    return 0;
 }
