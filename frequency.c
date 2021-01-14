@@ -156,7 +156,7 @@ int main(int argc, char *argv[])
     {
         c = tolower(c);
 
-        if (c == ' ' || c == EOF)
+        if (isspace(c) || c == EOF)
         {
 
             str = realloc(str, 26*sizeof(char));
